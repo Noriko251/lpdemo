@@ -3,6 +3,10 @@
 body {
   overflow-x: hidden;
   color: #4c585b;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body,
