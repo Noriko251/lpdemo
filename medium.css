@@ -155,54 +155,8 @@ header {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 60vh;
+  height: 800px;
 }
-
-/* @keyframes zoomBackground {
-  0% {
-    background-image: url("images/top-image-01-edited.png");
-    transform: scale(1);
-  }
-  35% {
-    background-image: url("images/top-image-01-edited.png");
-    transform: scale(1.05);
-  }
-  37.5% {
-    background-color: #fff;
-    transform: scale(1.05);
-  }
-  40% {
-    background-image: url("images/top-image-02.png");
-    transform: scale(1);
-  }
-  75% {
-    background-image: url("images/top-image-02.png");
-    transform: scale(1.05);
-  }
-  77.5% {
-    background-color: #fff;
-    transform: scale(1.05);
-  }
-  80% {
-    background-image: url("images/top-image-03.png");
-    transform: scale(1);
-  }
-  95% {
-    background-image: url("images/top-image-03.png");
-    transform: scale(1.05);
-  }
-  100% {
-    background-color: #fff;
-    transform: scale(1.05);
-  }
-} */
-
-/* .main__section-intro {
-  display: block;
-  width: 1200px;
-  height: 100vh;
-  margin: 0;
-} */
 
 .main__section-intro-front {
   width: 100%;
@@ -255,6 +209,10 @@ header {
   height: 100%;
   width: 100%;
   z-index: -1;
+  background-image: url("images/top-image-02-tablet.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* .main__section-intro-back img {
@@ -926,8 +884,9 @@ header {
 }
 
 footer {
-  display: grid;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #eeeeee;
   padding: 40px;
 }

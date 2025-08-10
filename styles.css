@@ -175,6 +175,10 @@ header {
   height: 100%;
   width: 100%;
   z-index: -1;
+  background-image: url("images/top-image-02.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* .main__section-intro-back img {
