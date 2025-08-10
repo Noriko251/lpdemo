@@ -1,17 +1,11 @@
-var images = [
-  "images/top-image-01-edited.png",
-  "images/top-image-02.png",
-  "images/top-image-03.png",
-];
+var images = ["images/top-image-02.png", "images/top-image-03.png"];
 
 var imagesTablet = [
-  "images/top-image-01-tablet.png",
   "images/top-image-02-tablet.png",
   "images/top-image-03-tablet.png",
 ];
 
 var imagesMobile = [
-  "images/top-image-01-mobile.png",
   "images/top-image-02-mobile.png",
   "images/top-image-03-mobile.png",
 ];

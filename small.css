@@ -11,7 +11,7 @@ section,
 ul,
 p {
   margin: 0;
-  padding: 0; /* Also reset padding */
+  padding: 0;
 }
 
 .modals {
@@ -158,64 +158,21 @@ nav {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 90vh;
+  height: 600px;
+  padding: 80px 0 0 0;
 }
 
-/* @keyframes zoomBackground {
-  0% {
-    background-image: url("images/top-image-01-edited.png");
-    transform: scale(1);
-  }
-  35% {
-    background-image: url("images/top-image-01-edited.png");
-    transform: scale(1.05);
-  }
-  37.5% {
-    background-color: #fff;
-    transform: scale(1.05);
-  }
-  40% {
-    background-image: url("images/top-image-02.png");
-    transform: scale(1);
-  }
-  75% {
-    background-image: url("images/top-image-02.png");
-    transform: scale(1.05);
-  }
-  77.5% {
-    background-color: #fff;
-    transform: scale(1.05);
-  }
-  80% {
-    background-image: url("images/top-image-03.png");
-    transform: scale(1);
-  }
-  95% {
-    background-image: url("images/top-image-03.png");
-    transform: scale(1.05);
-  }
-  100% {
-    background-color: #fff;
-    transform: scale(1.05);
-  }
-} */
-
-/* .main__section-intro {
-  display: block;
-  width: 1200px;
-  height: 100vh;
-  margin: 0;
-} */
-
 .main__section-intro-front {
-  height: 100%;
-  margin: 70px 10px;
+  height: 550px;
+  padding: 30px 0 20px 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main__section-intro-front-wrapper {
   display: block;
+  margin: 0 auto;
 }
 
 .main__section-intro-front-wrapper h1 img {
@@ -230,7 +187,7 @@ nav {
 
 .main__section-intro-front-percentages {
   display: flex;
-  gap: 32px;
+  gap: 10px;
   margin: 5% 0;
 }
 
@@ -242,6 +199,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .main__section-intro button {
@@ -250,7 +208,6 @@ nav {
   border-radius: 4px;
   height: 70px;
   width: 200px;
-  margin-top: 80%;
   color: white;
   font-size: 1rem;
   font-weight: bold;
@@ -263,6 +220,7 @@ nav {
   right: 0;
   height: 100%;
   width: 100%;
+  max-width: 100%;
   z-index: -1;
 }
 
@@ -305,7 +263,8 @@ nav {
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  height: 100%;
   z-index: -1;
   overflow: hidden;
 }
@@ -315,9 +274,11 @@ nav {
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  height: 100%;
   background-size: cover;
-  background-position: right center;
+  background-position: center bottom;
+  /* background-position: right center; */
   background-repeat: no-repeat;
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -503,7 +464,7 @@ nav {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin: 30px 10px 0 10px;
 }
 
 .main__section-2-worries-wrapper h3 {
@@ -525,6 +486,7 @@ nav {
   justify-content: center;
   margin-top: 50px;
   width: 100%;
+  max-width: 100%;
 }
 
 .main__section-2-worries-column {
@@ -541,10 +503,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px;
+  padding: 0 10px;
   background-color: #fff;
   border-radius: 50px;
   margin-right: 50px;
+  height: 80px;
 }
 
 .main__section-2-worries-1 img {
@@ -559,10 +522,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px;
+  padding: 0 10px;
   background-color: #fff;
   border-radius: 50px;
   margin-left: 50px;
+  height: 80px;
 }
 
 .main__section-2-worries-2 img {
@@ -577,10 +541,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 10px;
   background-color: #fff;
   border-radius: 50px;
   margin-right: 50px;
+  height: 80px;
 }
 
 .main__section-2-worries-3 img {
@@ -637,7 +602,7 @@ nav {
   margin-top: 30px;
 }
 
-.main__secion-3-intro {
+.main__section-3-intro {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -655,7 +620,7 @@ nav {
   text-align: center;
   width: auto;
 }
-.main__secion-3-intro-h2 {
+.main__section-3-intro-h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -665,43 +630,44 @@ nav {
   width: 250px;
 }
 
-.main__secion-3-cans-wrapper {
+.main__section-3-cans-wrapper {
   display: grid;
   gap: 30px;
   margin: 50px 30px;
 }
 
-.main__secion-3-can.can-1,
-.main__secion-3-can.can-3 {
+.main__section-3-can.can-1,
+.main__section-3-can.can-3 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.main__secion-3-can.can-2 {
+.main__section-3-can.can-2 {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
 }
 
-.main__secion-3-can img {
+.main__section-3-can img {
   width: 35%;
   margin: 0 20px;
 }
 
-.main__secion-3-can-sb {
+.main__section-3-can-sb {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
 }
 
-.main__secion-3-can.can-2 .main__secion-3-can-sb {
+.main__section-3-can.can-2 .main__section-3-can-sb {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.main__secion-3-can-sb p {
+.main__section-3-can-sb p {
   background-color: #ffeadb;
   text-align: start;
   width: auto;
@@ -710,13 +676,13 @@ nav {
   color: #4c585b;
 }
 
-.main__secion-3-can-sb img {
+.main__section-3-can-sb img {
   width: 10%;
   margin: 0 auto;
   transform: rotate(-90deg);
 }
 
-.main__secion-3-can.can-2 .main__secion-3-can-sb img {
+.main__section-3-can.can-2 .main__section-3-can-sb img {
   transform: rotate(90deg);
 }
 
