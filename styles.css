@@ -126,11 +126,12 @@ header {
 } */
 
 .main__section-intro-front {
-  height: 100%;
-  margin: 0 40px;
+  width: 100%;
+  height: auto;
+  margin: 100px 40px 50px 40px;
   display: flex;
-  align-items: center;
-  justify-content: start;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main__section-intro-front-wrapper {

@@ -205,10 +205,12 @@ header {
 } */
 
 .main__section-intro-front {
-  height: 100%;
+  width: 100%;
+  height: auto;
   margin: 100px 40px;
   display: flex;
-  justify-content: start;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main__section-intro-front-wrapper {

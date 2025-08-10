@@ -228,14 +228,6 @@ nav {
   z-index: -1;
 }
 
-/* .main__section-intro-back img {
-  position: absolute;
-  width: 510px;
-  height: auto;
-  display: block;
-  object-fit: cover;
-} */
-
 .main__section-intro-back-cloud1 {
   position: absolute;
   width: 510px;
