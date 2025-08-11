@@ -380,8 +380,8 @@ header {
   left: auto;
   margin: 0 0 0 0;
   position: absolute;
-  right: 330px;
-  top: 70px;
+  right: 30%;
+  top: 5%;
   width: 75px;
   max-width: 100%;
 }
