@@ -591,8 +591,10 @@ nav {
 }
 
 .main__section-2-bottom-triangle img {
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   height: auto;
+  margin: 0;
 }
 
 .main__section-3 {
@@ -632,7 +634,7 @@ nav {
 .main__section-3-cans-wrapper {
   display: grid;
   gap: 30px;
-  margin: 50px 30px;
+  margin: 50px 20px;
 }
 
 .main__section-3-can.can-1,
@@ -651,7 +653,7 @@ nav {
 
 .main__section-3-can img {
   width: 35%;
-  margin: 0 20px;
+  margin: 0;
 }
 
 .main__section-3-can-sb {
@@ -671,7 +673,7 @@ nav {
   text-align: start;
   width: auto;
   margin: 0;
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: #4c585b;
 }
 
@@ -706,7 +708,7 @@ nav {
   color: #4c585b;
   margin-top: 20px;
   margin-bottom: 60px;
-  width: 290px;
+  width: 280px;
 }
 
 .main__section-4-intro strong {
@@ -722,7 +724,7 @@ nav {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin: 30px 50px;
+  margin: 30px;
 }
 
 .main__section-4-feature-1-wrapper img {
@@ -746,7 +748,7 @@ nav {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin: 50px 50px;
+  margin: 30px;
 }
 
 .main__section-4-feature-2-wrapper img {
@@ -770,7 +772,7 @@ nav {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin: 50px 50px;
+  margin: 30px;
 }
 
 .main__section-4-feature-3-wrapper img {
